@@ -19,7 +19,7 @@ public class FactoryPatternMAIN {
 	      Factory cr3 = CreateFactory.getCreate("Window");
 
 	      cr3.Create();
-		
+		////////////////
 		
 	}
 
