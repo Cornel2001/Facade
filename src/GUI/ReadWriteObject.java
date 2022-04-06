@@ -7,7 +7,12 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-public class ReadWriteObject {
+public class ReadWriteObject implements Factory {
+	
+	public void Create() {
+	      //System.out.println("Inside ReadWriteObject::Create() method.");
+		ReadWrite();
+	   }
 	public void ReadWrite(){
 	try {
 		FileOutputStream fos;

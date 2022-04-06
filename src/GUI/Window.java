@@ -10,8 +10,14 @@ import javax.swing.JButton;
 
 
 
-public class Window 
-{
+public class Window implements Factory{
+
+	public void Create() {
+	    System.out.println("Inside Window::Create() method.-ATENTIE, in aceasta metoda se creaza si interfata grafica.");
+	   initGUI();
+	
+	}
+	
 	private JFrame frame; //  compunere
 	private JButton btn1;
 	private JButton btn2;

@@ -6,14 +6,17 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class PISTAsingletonClass {
+public class PISTAsingletonClass implements Factory {
 	
-	
+	public void Create() {
+	      System.out.println("Inside PISTAsingletonClass::Create() method.");
+	   }
+	   
 	private static PISTAsingletonClass singleton = new PISTAsingletonClass( );
 	
 	private static volatile PISTAsingletonClass obj  = null;
 	 
-   private PISTAsingletonClass() {
+   PISTAsingletonClass() {
     	
     }
  
