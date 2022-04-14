@@ -21,7 +21,8 @@ public class Window implements Factory{
 	private JFrame frame; //  compunere
 	private JButton btn1;
 	private JButton btn2;
-	
+	private JButton btn3;
+
 	public Window()
 	{
 		super();
@@ -37,15 +38,16 @@ public class Window implements Factory{
 		
 		btn1 = new JButton("Apasa1");
 		btn2 = new JButton("Apasa2");
+		btn3 = new JButton("Apasa3");
 		
-		//btn1.setSize(100, 20);
-		//btn2.setSize(100, 20);
 		
 		btn1.setBounds(10, 20, 100, 20);
 		btn2.setBounds(60, 60, 100, 20);
-		
+		btn3.setBounds(110, 100, 100, 20);
 		frame.add(btn1);
 		frame.add(btn2);
+		frame.add(btn3);
+
 	}
 	
 	
