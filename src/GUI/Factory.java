@@ -1,6 +1,6 @@
 package GUI;
 
-public interface Facade{
+public interface Factory{
 	void Create();
 
 }
