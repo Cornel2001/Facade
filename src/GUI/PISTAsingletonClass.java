@@ -6,7 +6,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class PISTAsingletonClass implements Factory {
+public class PISTAsingletonClass implements facadeInterface {
 	
 	public void Create() {
 	      System.out.println("Inside PISTAsingletonClass::Create() method.");

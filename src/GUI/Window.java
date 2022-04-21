@@ -10,7 +10,7 @@ import javax.swing.JButton;
 
 
 
-public class Window implements Factory{
+public class Window implements facadeInterface{
 
 	public void Create() {
 	    System.out.println("Inside Window::Create() method.-ATENTIE, in aceasta metoda se creaza si interfata grafica.");

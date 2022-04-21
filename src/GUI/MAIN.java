@@ -6,17 +6,17 @@ public class MAIN {
 		
 		
 		
-		 CreateFactory CreateFactory = new CreateFactory();
+		/* CreateFactory CreateFactory = new CreateFactory();
 
-	      Factory cr1 = CreateFactory.getCreate("PISTAsingletonClass");
+	      facadeInterface cr1 = CreateFactory.getCreate("PISTAsingletonClass");
 
 	      cr1.Create();
 
-	      Factory cr2 = CreateFactory.getCreate("ReadWriteObject");
+	      facadeInterface cr2 = CreateFactory.getCreate("ReadWriteObject");
 
 	      cr2.Create();
 
-	      Factory cr3 = CreateFactory.getCreate("Window");
+	      facadeInterface cr3 = CreateFactory.getCreate("Window");
 
 	      cr3.Create();
 		//----------------------------------------------------------------
@@ -28,8 +28,16 @@ public class MAIN {
 	      for(Iterator iter = NamesCars.getIterator(); iter.hasNext();){
 	         String name = (String)iter.next();
 	         System.out.println("Marca: " + name);
+	         //-------------------------------------------------------------*/
+	         FacadeClass facadeclass = new FacadeClass();
+
+	         facadeclass.CreatePISTAsingletonClass();
+	         facadeclass.CreateReadWriteObject();
+	         facadeclass.CreateeWindow();	
+	         
+	        
 		
 	}
 
 }
-}
+

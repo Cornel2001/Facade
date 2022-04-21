@@ -3,7 +3,7 @@ package GUI;
 public class CreateFactory {
 	
 	
-	 public Factory getCreate(String createType){
+	 public facadeInterface getCreate(String createType){
 	      if(createType == null){
 	         return null;
 	      }		

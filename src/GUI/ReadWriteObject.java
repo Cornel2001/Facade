@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-public class ReadWriteObject implements Factory {
+public class ReadWriteObject implements facadeInterface {
 	
 	public void Create() {
 	      //System.out.println("Inside ReadWriteObject::Create() method.");
